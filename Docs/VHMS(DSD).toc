@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Requirements}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}User Interface}{4}{subsection.2.1}%
+\contentsline {paragraph}{Requirements:}{4}{section*.1}%
+\contentsline {subparagraph}{Patient Interface}{4}{section*.2}%
+\contentsline {subparagraph}{Master Interface}{4}{section*.3}%
+\contentsline {subparagraph}{Doctor Interface}{5}{section*.4}%
+\contentsline {paragraph}{Preliminary Study:}{5}{section*.5}%
+\contentsline {subsection}{\numberline {2.2}Virtual hospital simulation}{6}{subsection.2.2}%
+\contentsline {paragraph}{Requirements:}{6}{section*.6}%
+\contentsline {paragraph}{Preliminary Study:}{6}{section*.7}%
+\contentsline {subsection}{\numberline {2.3}Patient appointment \& Scheduling}{6}{subsection.2.3}%
+\contentsline {paragraph}{Requirements:}{6}{section*.8}%
+\contentsline {paragraph}{Preliminary Study:}{6}{section*.9}%
+\contentsline {subsection}{\numberline {2.4}Automated Billing}{6}{subsection.2.4}%
+\contentsline {paragraph}{Requirements:}{7}{section*.10}%
+\contentsline {paragraph}{Preliminary Study:}{7}{section*.11}%
+\contentsline {subsection}{\numberline {2.5}employee tracking}{7}{subsection.2.5}%
+\contentsline {paragraph}{Requirements:}{7}{section*.12}%
+\contentsline {paragraph}{Preliminary Study:}{7}{section*.13}%
+\contentsline {subsection}{\numberline {2.6}Stock and inventory management}{8}{subsection.2.6}%
+\contentsline {paragraph}{Requirements:}{8}{section*.14}%
+\contentsline {subparagraph}{Consumables}{8}{section*.15}%
+\contentsline {subparagraph}{Reusables}{8}{section*.16}%
+\contentsline {paragraph}{Preliminary Study:}{9}{section*.17}%
+\contentsline {section}{\numberline {3}Implementation}{10}{section.3}%
+\contentsline {section}{\numberline {4}Managing Neurodivergencies}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}App description:}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}How does it help the community:}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Algorithm:}{11}{subsection.4.3}%
+\contentsline {paragraph}{Main algorithm:}{11}{section*.18}%
+\contentsline {paragraph}{Side algorithm:}{12}{section*.19}%
+\contentsline {subsection}{\numberline {4.4}How to improve it in the future:}{13}{subsection.4.4}%

@@ -1,0 +1,85 @@
+\paragraph{Requirements:}\
+
+	The user interface of the VHMS will be split into three parts: patient, Doctor, and
+	master interface. Each interface will be further broken up into parts, see fig
+	\ref{figure:architect:modules} for how UI will be split
+	up.
+
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.20]{Sections/Requiremts/pics/UI digram.drawio.png}
+		\caption{VHMS UI outline}
+		\label{figure:architect:modules}
+	\end{figure}
+
+\subparagraph{Patient Interface}\
+
+	As the figure above shows, the patient interface will be split into three
+	main
+	parts:
+
+	\begin{itemize}
+		\item Patient Information: This section will consist of all information attainable in regard to the
+		patient. For example, things such as medication the patient might be on, chronic conditions, medical
+		records(such as x-rays, blood tests, etc.), and any other pieces of information that would be
+		relevant to the doctor to make medical evaluations.\label{Patient-information1}
+
+		\item Booking Options: A booking page will be available for the patient. This page will show
+		patients/visitors what times they can come in for an appointment.
+
+		\item Billing/Visit History: Patients will have access to a timeline of visits. This timeline will
+		show information such as: purpose of visit, any medication prescribed in the visit, and an itemized
+		list of all things the patient is billed for in the visit.
+	\end{itemize}
+
+\subparagraph{Master Interface}\
+
+	The master interface is the most expansive of the three interfaces, it will consist of five major parts:
+
+\begin{itemize}
+	\item Patient Information: Patient information in the master will differ from the one available to
+	patients. The master patient information will show a list of all patients where all the information
+	(described in patient interface \ref{Patient-information1}) can be accessed and
+	edited.\label{Patient-information2}
+
+	\item  Booking Information: In this page persons with access to the master can see all bookings, edit
+	them, and assign new booking if need be.
+
+	\item Employee information: This page will host a lost similar to that of patient information page, but,
+	it will have information regarding employees, such as: static info like; name, role, rank, etc.) and more
+	'dynamic' info like: patients and wards the employee is assigned to, tools and equipment used or is being
+	used by the employee, etc.
+
+	\item Stock: Stocks will be list of all items needed for running the hospital. stocks will be split into
+	few parts, such as: medication, medical supplies, cleaning supplies, beds and rooms will fall under
+	stock, and other miscellaneous items that are need for the running of the hospital. further details about
+	the stock system can be found in the stock section found in \ref{Stock}
+
+	\item Master log: The log will be record of all changes happening in the software. Any edits, additions,
+	removals of anything will be seen in the log with the time and file edited listed.
+\end{itemize}
+
+
+\subparagraph{Doctor Interface}\
+
+	The doctor interface will display the same info as patient information interface with some of the edit
+	access of the master, and will consist of three parts:
+\begin{itemize}
+	\item Patient information: the doctors Patient information page will be similar to that of the master(
+	descried above in \ref{Patient-information2}), with notable exception that the doctor will only have
+	access to the patients that they have an appointment with or ones that are assigned to them.
+
+	\item  incoming bookings: This page will show the doctor all his appointments and with which patients.
+
+	\item doctor documents: doctor documents will consist of paper work the doctor might want to access, such
+	as prescribing x-rays, MRIs, blood tests or other producers that require paper work.
+\end{itemize}
+
+
+
+\paragraph{Preliminary Study:}\
+
+The current consideration is to build the ui in either SceneBuilder, with JavaFX libary, or  Codename One.
+further investigation in each programs needs to be made before a final decisions is made in which program to
+build in.

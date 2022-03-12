@@ -1,0 +1,51 @@
+\label{Stock}
+\paragraph{Requirements:}\
+
+	The stock and inventory system will keep track of all items, and some non items, used in the hospital.See
+	fig\ref{figure:architect:modules}for breakdown of the stock and inventory system:
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.25]{Sections/Requiremts/pics/TypessOfStock.drawio.png}
+		\caption{Types of stocks breakdown}
+		\label{figure:architect:modules}
+	\end{figure}
+
+	As the figure \ref{figure:architect:modules} shows there two types of stocks the will be tracked:
+	consumables and reusables.
+
+	\subparagraph{Consumables}\
+
+	Consumables will be items that are of limited in use. They will be the items that are discarded after use
+	and needed constant replenishment.
+
+	These items will include:
+		\begin{itemize}
+		\item Medical equipment
+
+		\item Medicine And Treatments
+
+		\item Lab Supplies
+
+		\item Cleaning And sterilization Supplies
+
+	\end{itemize}
+
+	\subparagraph{Reusables}\
+
+	Reysables will be items that see long term use
+
+
+	These items will include:
+	\begin{itemize}
+		\item  Beds/Rooms
+
+		\item Medical equipment(These differ from the one mentioned in the consumables section)
+
+	\end{itemize}
+
+
+
+\paragraph{Preliminary Study:}\
+
+	A class, or multiple if deemed necessary, will be created. Each item will be stored as its own object.

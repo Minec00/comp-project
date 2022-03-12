@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amscd, amsthm, amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage[svgnames]{xcolor}
+\usepackage{soul}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage[parfill]{parskip}
+
+\newcommand{\TBD}[1]{\sethlcolor{Magenta}\hl{#1}}
+
+\setlength{\parindent}{0pt}
+\oddsidemargin 0pt
+\evensidemargin 0pt
+\marginparwidth 40pt
+\marginparsep 10pt
+\topmargin -20pt
+\headsep 10pt
+\textheight 8.7in
+\textwidth 6.65in
+\linespread{1.2}
+
+\title{Design Specification Document: Hospital Management Software}
+\author{Abdulaziz Al-Mass \and Abdullah Al-Noomes \and Faisal Al-Ghanim  \and Faisal Al-Omar \and Mohammad
+AlToorah
+\and Yousef Al-Failakawi \and Asmaa Al-Hajeri}
+\date{22nd of November, 2021}
+
+\begin{document}
+
+	\maketitle
+	\pagebreak
+
+	\begin{abstract}
+		This Document will act as Design Specification Document(DSD) for the virtual Hospital Management
+		System(VHMS). It will discuss the required features and how they will be implemented.
+	\end{abstract}
+	\tableofcontents
+	\newpage
+
+
+
+	\section{Introduction}
+		This project will consist in building a virtual Hospital Management System(VHMS). The VHMS will  be
+		able to simulate the administrative functions of the hospital and manage them autonomously. The aim
+		is to create a system that requires as little human intervention as possible.\\
+		And it will have the following features:\\
+
+		\begin{enumerate}
+			\item Patient appointment \& Scheduling
+			\item Automated Billing
+			\item employee tracking
+			\item Stock management
+		\end{enumerate}
+
+		Further elaboration can be found in each items respective section under Requirement Specification.
+
+		\input{Sections/Requiremts/Requiremts.tex}
+		\newpage
+
+		\input{Sections/Implementation/Implementation.tex}
+		\newpage
+
+		\section{Managing Neurodivergencies}\
+
+		\input{Sections/Requiremts/Managing_Neurodivergencies.tex}
+
+
+
+\end{document}

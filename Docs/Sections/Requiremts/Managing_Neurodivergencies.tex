@@ -1,0 +1,105 @@
+This section is solely dedicated to Asmaa Al-Hajeri's project, and is not directly connected with the project
+described above.
+
+\subsection{App description:}\
+
+	 A productivity app that incorporates gaming into everyday tasks. A character is custom created by the
+	 user, the user then goes on to add their to-do list with all their tasks (different to-do lists are
+	 provided if the user works and does chores) After the user chooses a task to start, the character starts
+	 to work on a task of their own (can be an artwork that’s shown at the end of the day or something else)
+	 Once the user finishes their task (after a certain amount of time or manually) they check the task as
+	 “done!” then the user is able to spend their break listening to music with their character, check on
+	 their character’s plants, make a meal with their character (recipes can be provided if needed) Then the
+	 cycle repeats until all the tasks are completed. The user is also allowed to create a certain schedule,
+	 meaning that certain tasks are repeated every time the user wants it to be (users can add their own
+	 recipes to be repeated on certain days of the week, they can also add a playlist for them to listen to
+	 on their breaks, they can add facts they know about the pets/plants they own so when the online feature
+	 is added, other people also know these facts).
+
+\subsection{How does it help the community:}\
+
+	The target demographic is neurodivergent people. Due to their struggles of finding a good incentive to
+	start and finish tasks, this app rewards them after every task while their in-game character takes a
+	break with them.
+
+\subsection{Algorithm:}
+
+	\paragraph{Main algorithm:}
+		\begin{enumerate}
+
+			\item Use the Scanner class to get the input from the user
+
+			\item Use the while loop to keep taking input from the user when the user wants to add a task,
+			add a
+			fact, or add a recipe
+
+			\item If the user chooses to add a recipe, the user is asked if they would like to categorize it
+			as a
+			“breakfast”, “lunch”, “dinner” meal, or a “snack”. Otherwise, store the recipe as a “meal”
+
+			\item Once the user chooses to add a recipe, the user is asked to submit the number of steps it
+			takes
+			to complete the recipe and then is asked to enter the steps based on the number assigned
+
+			\item If the user chooses to add a task, the user is asked if the task is “work” related or
+			“home”
+			related or “self” related, work tasks include “respond to emails” and “submit assignments”, home
+			related tasks include “do the dishes” and “cook”, self related tasks include “read” and “watch a
+			movie”
+
+			\item Once the user chooses the category the task belongs to, the user is asked how much time it
+			would take for them to complete it. If the user sets an approximation, the user will be reminded
+			about the task after the time for that task is over, otherwise the task will just be set without
+			an
+			approximate time of its completion
+
+			\item The user is then asked to choose how long the breaks between the tasks to be
+
+			\item Use the for loop to keep taking input from the user to take their to do list
+
+			\item Use Math.random and assign it to a bundle of welcoming messages for when the user first
+			enters
+			the app in the beginning of day
+
+			\item Use ArrayList in order to put a limit to the amount of characters written in a task
+
+			\item Create a method that stops the task from looping if the user enters “Done”
+
+			\item Set a timer that starts once step 10 is completed
+
+			\item The timer is set based on how long the user chose the break between the tasks to be.
+
+			\item Stop the timer once the set amount of time has passed and print the second task in the
+			To-Do
+			list
+
+		\end{enumerate}
+
+	\paragraph{Side  algorithm:}
+		\begin{enumerate}
+			\item Use Array to encrypt messages for the user to decrypt and complete a quest
+
+			\item Use switch, case, and Array to create a mini TicTacToe game as a quest
+
+			\item Declare a plant object that can be planted by the user and grows over time
+
+			\item Declare a cat object that can play with the user and requires to be fed
+
+			\item Create an object that outputs random vocabulary and a Scanner object that takes the input
+			of the user (word association)
+
+			\item Create a method that creates a randomised order of “verb,” “adjective,” “proper noun,”
+			“common noun,” and “adverb” in a story where the user enters the wanted sentence part to complete
+			the story
+
+			\item Create a URL object that and a URL method that accepts a hyperlink from music players set
+			by the user
+
+			\item Create method that calculates the average amount of steps taken in the set amount of time
+
+		\end{enumerate}
+
+\subsection{How to improve it in the future:}\
+
+		Add an online feature where people could visit other people’s places and leave notes, water their
+		plants, etc.
